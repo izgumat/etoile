@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Etoile</title>
+  <style>
+    :root {
+      /* Темно-синий, как чернила перьевой ручки */
+      --ink-blue: #0a1a3f;
+    }
+    html, body {
+      height: 100%;
+      margin: 0;
+      background: var(--ink-blue);
+    }
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .title {
+      color: #ffffff;            /* Белые буквы */
+      font-family: "Arial", "Helvetica", sans-serif; /* Без засечек */
+      font-size: 72px;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+    }
+    @media (max-width: 600px) {
+      .title { font-size: 48px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="title">Etoile</div>
+</body>
+</html>
